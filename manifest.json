@@ -1,0 +1,33 @@
+{
+  "name": "Basic Functions",
+  "specs": [
+    {
+      "name": "RequestFunction",
+      "type": "Request",
+      "inputs": [
+        {
+          "name": "API End point",
+          "type": "Route"
+        },
+        {
+          "name": "Method",
+          "type": "Methods",
+          "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+        }
+      ]
+    },
+    {
+      "name": "helloFunction",
+      "type": "Middleware",
+      "controller": "abcd"
+    },
+    {
+      "name": "userResponse",
+      "type": "Response"
+    },
+    {
+      "name": "log",
+      "type": "Debug"
+    }
+  ]
+}

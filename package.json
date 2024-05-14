@@ -1,0 +1,36 @@
+{
+  "name": "ecoflow-network",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "EcoFlow",
+    "EcoFlowModule"
+  ],
+  "author": "EcoFlow",
+  "license": "ISC",
+  "ecoModule": {
+    "getController": "./dist/controllers/getController.js",
+    "postController": "./dist/controllers/postController.js",
+    "putController": "./dist/controllers/putController.js",
+    "patchController": "./dist/controllers/patchController.js",
+    "deleteController": "./dist/controllers/deleteController.js"
+  },
+  "dependencies": {
+    "@ecoflow/types": "^0.0.20",
+    "axios": "^1.6.8",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EcoFlowJS/ecoflow-network.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EcoFlowJS/ecoflow-network/issues"
+  },
+  "homepage": "https://github.com/EcoFlowJS/ecoflow-network#readme",
+  "description": ""
+}
